@@ -1,0 +1,34 @@
+This section will cover Reflections, the Burn, and Liquidity Pool (LP) injections. That are built in to the CyberKitty Protocol.
+
+When a transaction occurs (Sell, Buy, or Transfer/Exchange) there is a 10% fee to the holder that started the transaction. 
+5% of this fee is  is distributed to all holders in reflections. The other 5% is used for Liquidity.
+
+Reflections: Lets start with reflections. Reflections are tokens that are distributed to all wallets that hold SafeMoon. 
+As stated earlier, 5% of the 10% fee gets used for reflections. The amount of reflections a holder gets depends on how much the holder has. 
+So if a holder has 2% of the total coin supply, that holder receives .02 times the amount of reflections distributed.
+
+*Holder has .02 x 1,000,000,000,000,000 *Holder has 20,000,000,000,000 tokens
+
+x=Distributed Reflections Total y=Earned Reflections (result)
+
+.02 * x = y
+
+
+
+Burn: The burn wallet is itself a holder. It's the largest holder of around 42% of the total supply of SafeMoon at the time of this post; 
+therefore, it sees the highest reward of the reflections (which ends up being close to 2.1% of the 5% from the date of this post). 
+This is where the burn occurs. As reflections are distributed, the burn wallet recieves its portion of reflections which is based on the percentage of 
+the total supply that it owns, as stated in the formula above.
+
+
+Liquidity: The other 5% is used for LP. The Liquidity Contract-Bound Wallet (CBW):
+takes the remaining 5% from each transaction. As transactions are made, the amount of safemoon in the liquidity pool (CBW) amasses a specified amount (500 billion),
+and to prevent it from getting too large, is split for LP acquisition.
+
+2.5% (250,000,000,000 SafeMoon) of the LP goes to "PancakeSwap: SAFEMOON".
+
+Note: We'll refer to this wallet as "PCL-S" in this overview. This is the SafeMoon liquidity wallet for Safemoon and BNB Liquidity.
+
+The liquidity from PCL-S goes to what is known as the Router wallet. The Router converts the 250 billion safemoon liquidity to BNB and routes 
+it back to PCL-S as BNB leaving ~2900 BNB (which should equal 250 billion safemoon) in the wallet for Liquidity. Lastly, 
+the remaining 250,000,000,000 SafeMoon liquidity in the CBW is sent to PCL-S thereby completed the injection.
